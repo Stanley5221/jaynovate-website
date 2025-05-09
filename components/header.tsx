@@ -139,7 +139,7 @@ export default function Header() {
                 />
               </div>
               <span className="ml-2 text-lg font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
-                Jaynovate
+                JayNovate
               </span>
             </Link>
             <button
