@@ -43,14 +43,14 @@ export default function Header() {
             <div className="relative w-12 h-12 md:w-20 md:h-20 rounded-full overflow-hidden bg-white shadow-lg">
               <Image
                 src="/images/logo.png"
-                alt="Jaynovate Logo"
+                alt="JayNovate Logo"
                 fill
                 className="object-cover"
                 priority
               />
             </div>
             <span className="text-lg md:text-2xl font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
-              Jaynovate
+              JayNovate
             </span>
           </Link>
         </div>
@@ -132,7 +132,7 @@ export default function Header() {
               <div className="relative w-12 h-12 rounded-full overflow-hidden bg-white shadow-lg">
                 <Image
                   src="/images/logo.png"
-                  alt="Jaynovate Logo"
+                  alt="JayNovate Logo"
                   fill
                   className="object-cover"
                   priority
