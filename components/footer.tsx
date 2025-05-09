@@ -7,8 +7,21 @@ export default function Footer() {
     <footer className="bg-sky-900 text-white">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="space-y-8 md:w-1/2 lg:w-1/3">
-          <div className="flex items-center">
-            <Image src="/images/jaynovate-dark.png" alt="JayNovate" width={200} height={60} className="h-12 w-auto" />
+          <div className="flex flex-col items-center space-y-4 ml-4">
+            <Link href="/" className="flex items-center space-x-2">
+              <div className="relative w-12 h-12 md:w-20 md:h-20 rounded-full overflow-hidden bg-white shadow-lg">
+                <Image
+                  src="/images/logo.png"
+                  alt="Jaynovate Logo"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              <span className="text-lg md:text-2xl font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
+                Jaynovate
+              </span>
+            </Link>
           </div>
           <p className="text-sm leading-6 text-sky-100">
             Driving innovation in healthcare and business intelligence through trusted data solutions that deliver

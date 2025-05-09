@@ -104,17 +104,54 @@ export default function IndustriesPage() {
               </div>
             </div>
 
-            {/* Retail */}
+            {/* Finance */}
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-center">
               <div className="relative h-[300px] rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Retail"
+                  src="/images/finance.jpg"
+                  alt="Finance"
                   fill
                   className="object-cover"
                 />
               </div>
               <div>
+                <h2 className="text-3xl font-bold text-sky-900">Finance</h2>
+                <p className="mt-4 text-lg text-sky-700">
+                  Empowering financial institutions with advanced analytics and risk management solutions. Our financial services
+                  help organizations make data-driven decisions, detect fraud, and optimize investment strategies.
+                </p>
+                <div className="mt-6 space-y-4">
+                  <div className="flex">
+                    <CheckCircle2 className="h-6 w-6 text-sky-600 flex-shrink-0" />
+                    <span className="ml-2 text-sky-700">Risk assessment and management</span>
+                  </div>
+                  <div className="flex">
+                    <CheckCircle2 className="h-6 w-6 text-sky-600 flex-shrink-0" />
+                    <span className="ml-2 text-sky-700">Fraud detection and prevention</span>
+                  </div>
+                  <div className="flex">
+                    <CheckCircle2 className="h-6 w-6 text-sky-600 flex-shrink-0" />
+                    <span className="ml-2 text-sky-700">Investment portfolio optimization</span>
+                  </div>
+                  <div className="flex">
+                    <CheckCircle2 className="h-6 w-6 text-sky-600 flex-shrink-0" />
+                    <span className="ml-2 text-sky-700">Algorithmic trading solutions</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Retail */}
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 items-center md:flex-row-reverse">
+              <div className="relative h-[300px] rounded-xl overflow-hidden md:order-2">
+                <Image
+                  src="/images/retail.jpg"
+                  alt="Retail"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="md:order-1">
                 <h2 className="text-3xl font-bold text-sky-900">Retail</h2>
                 <p className="mt-4 text-lg text-sky-700">
                   Transforming retail operations with predictive analytics and customer insights. Our retail solutions
@@ -154,11 +191,6 @@ export default function IndustriesPage() {
           </div>
           <div className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              {
-                title: "Financial Services",
-                description:
-                  "Risk assessment, fraud detection, and personalized financial recommendations through advanced analytics.",
-              },
               {
                 title: "Manufacturing",
                 description:

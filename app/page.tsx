@@ -7,6 +7,8 @@ import ContactForm from "@/components/contact-form"
 import AnimatedSection from "@/components/animated-section"
 import AnimatedCounter from "@/components/animated-counter"
 import AnimatedBackground from "@/components/animated-background"
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 export default function Home() {
   return (
@@ -35,11 +37,14 @@ export default function Home() {
                 className="animate-float"
               />
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl drop-shadow-lg">Innovative Data Intelligence</h1>
-            <p className="mt-6 text-lg leading-8 text-white drop-shadow">
-              We deliver expert statistical consulting, data analysis, and machine learning solutions tailored for small
-              and mid-sized businesses.
-            </p>
+            <div className="relative z-10 text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl lg:whitespace-nowrap text-balance break-words">
+                Innovative Data Intelligence
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+                Transforming businesses through advanced analytics and AI-driven insights
+              </p>
+            </div>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button className="bg-sky-600 hover:bg-sky-700 hover:scale-105 transition-transform text-lg px-6 py-6">
                 Get Started
